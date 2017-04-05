@@ -29,4 +29,4 @@ init_pm:
     mov ebp, 0x90000 ; Update our stack position so it is right
     mov esp, ebp     ; at the top of the free space.
 
-    call BEGIN_PM
+    jmp BEGIN_PM

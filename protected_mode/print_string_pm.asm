@@ -1,5 +1,5 @@
 
-; params: eax=*str
+; params: (eax)*str
 print_string_pm:
 
     ; bx=individual (char and attribute) data

@@ -1,5 +1,5 @@
 
-; params: ax=hex_dword
+; params: (ax)hex_dword
 print_hex:
 
 	push ax ; save a copy for later...

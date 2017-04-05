@@ -1,5 +1,5 @@
 
-; params: ax=*str
+; params: (ax)*str
 print_string: ; Routine: output string in SI to screen
 
 	pusha ; preserve all registers
